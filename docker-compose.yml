@@ -1,0 +1,9 @@
+version: '2.4'
+services:
+  apache:
+    image: 'Benacka/AccountingWeb'
+    ports:
+    - '80:80'
+    volumes:
+    - ./:/usr/local/apache2/htdocs
+    
